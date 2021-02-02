@@ -2,7 +2,7 @@ package wikipedia
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
-import wikipedia.WikipediaData.{lines, parse}
+import WikipediaData.{lines, parse}
 
 case class WikipediaArticle(title: String, text: String) {
   /**
